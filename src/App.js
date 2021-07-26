@@ -9,6 +9,9 @@ import CoverLetter from './CoverLetter';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 
+import ProjectPage from './ProjectPage';
+import NonePage from './NonePage';
+
 class App extends Component {
   render() {
     return (
@@ -18,8 +21,10 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/home" component={Home} />
-            <Route path="/resume" component={Resume} />
-            <Route path="/coverletter" component={CoverLetter} />
+            <Route exact path="/resume" component={Resume} />
+            <Route exact path="/coverletter" component={CoverLetter} />
+            <Route exact path="/projects/undefined" component={NonePage} />
+            <Route path="/projects/" component={ProjectPage} />
           </Switch>
         </HashRouter>
         <Footer/>
