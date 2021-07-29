@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
-import { Form, Button, Spinner, Container} from "react-bootstrap";
-import styled from 'styled-components';
-
-const Wrapper = styled.section`
-  margin: 0em;
-`;
+import { Form, Button, Spinner } from "react-bootstrap";
 
 class myForm extends Component {
     constructor(props) {

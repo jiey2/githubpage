@@ -7,10 +7,6 @@ const Title = styled.h1`
   text-align: center;
 `;
 
-const WhiteSpace = styled.span`
-    white-space: pre-line;
-`;
-
 class Project_cfd extends Component {
     state = {}
     render() {

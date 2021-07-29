@@ -77,6 +77,13 @@ class ProjectPage extends Component {
 
     componentDidMount() {
         this.fetchContents()
+        document.title = ("Projects")
+    }
+
+    componentDidUpdate() {
+        if (this.state.title !== "") {
+            document.title = (this.state.title)
+        } 
     }
 
 
@@ -124,7 +131,7 @@ class ProjectPage extends Component {
                     ))}
                     </Col>
                     </Row>
-                    <h6>{this.state.docs.length == 0 ? 'No Documents Appended':'Technical Documents:'} </h6>
+                    <h6>{this.state.docs.length === 0 ? 'No Documents Appended':'Technical Documents:'} </h6>
                     <div class="list-group">
                     {this.state.docs.map((obj, idx) => (
                     

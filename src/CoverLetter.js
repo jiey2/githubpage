@@ -9,10 +9,6 @@ const Title = styled.h1`
   text-align: center;
 `;
 
-const Wrapper = styled.section`
-  padding: 2em;
-`;
-
 class CoverLetter extends Component {
     componentDidMount() {
         document.title = "Cover Letter"
