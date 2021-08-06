@@ -22,7 +22,8 @@ const Emphasis = styled.span`
 
 class Home extends Component {
     componentDidMount() {
-        document.title = "Projects"
+        document.title = "Projects";
+
     }
 
     render() {
