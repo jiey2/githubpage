@@ -23,7 +23,6 @@ const Emphasis = styled.span`
 class Home extends Component {
     componentDidMount() {
         document.title = "Projects";
-
     }
 
     render() {
@@ -39,13 +38,13 @@ class Home extends Component {
                         </Explain>
                         <Row xs={1} md={2} className="g-4">
                             {project_data.map((_, idx) => (
-                                <ProjectCard Title={project_data[idx].title} 
-                                Text={project_data[idx].text} 
-                                ImgLink={project_data[idx].img_url} 
-                                pageLink={{ pathname: '/projects/' + project_data[idx].pageID, query: { pageID: project_data[idx].pageID }}}
-                                Subtitle={project_data[idx].subtitle}
-                                Time={project_data[idx].time}
-                                pageID={project_data[idx].pageID}
+                                <ProjectCard Title={project_data[idx].title}
+                                    Text={project_data[idx].text}
+                                    ImgLink={project_data[idx].img_url}
+                                    pageLink={{ pathname: '/projects/' + project_data[idx].pageID, query: { pageID: project_data[idx].pageID } }}
+                                    Subtitle={project_data[idx].subtitle}
+                                    Time={project_data[idx].time}
+                                    pageID={project_data[idx].pageID}
                                 />
                             ))}
                         </Row>
