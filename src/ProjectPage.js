@@ -35,11 +35,11 @@ class ProjectPage extends Component {
     }
 
     fetchContents = async () => {
-        var myHeaders = new Headers();
+        const myHeaders = new Headers();
         // myHeaders.append("Notion-Version", "2021-05-13");
         // myHeaders.append("Authorization", "Bearer secret_XqE3HGLH5teE1z1BF5PhKz0o10Kv8lVr7G0RcdrVTts");
 
-        var requestOptions = {
+        const requestOptions = {
             method: 'GET',
             headers: myHeaders,
             redirect: 'follow'
