@@ -1,12 +1,19 @@
 const project_data = [
     {
+        "title": "Software Development Intern - ByteDance AML",
+        "text": "I worked as an SDE Intern in ByteDance AML, from October 2021 to March 2022. Worked in a Machine Learning team, didn't do much ML work. (It happens all the time.) Covid's still around during the time. Winter in Hangzhou is bad; the company is very big though. ",
+        "img_url": "https://d3xdgu3rc17hb.cloudfront.net/IMG/bytedance_logo.jpg",
+        "pageLink": "/projects/eightsquares",
+        "time": "2021 - 2022",
+        "pageID": "879d62800d5f43928ca5501ddf7fee80"
+    },
+    {
         "title":"Research Assistant - Turbulent Boundary Layer Research Group",
         "text": "This experience mainly consists two projects: retreating dynamic stall behaviour with morphing airfoil and rotor blade acoustics under unstatic thrust. ",
         "img_url": "https://d3xdgu3rc17hb.cloudfront.net/IMG/laser_piv.jpg",
         "pageLink":"/projects/ra",
         "time":"2019 - 2021",
         "pageID": "390ccb0ab0cc4f969b157ce1ea496b75"
-        
     },
     {
         "title": "Laser Induced Breakdown in CFD",

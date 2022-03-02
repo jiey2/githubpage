@@ -48,11 +48,9 @@ class Home extends Component {
                                 />
                             ))}
                         </Row>
-
                     </Col>
                 </Row>
             </Container>
-
         );
     }
 }
