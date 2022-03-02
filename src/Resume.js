@@ -19,17 +19,19 @@ class Resume extends Component {
             <Container>
                 <Row className="justify-content-md-center">
                     <Title>
-                        <p class="text-center" id="wrong-test">Résumé </p>
+                        <p class="text-center" id="wrong-test">Résumé</p>
                     </Title>
                     <Col xs={8}>
-
                         <div class="list-group">
-                            <a href="https://d3xdgu3rc17hb.cloudfront.net/cvs/Resume_2021_soft.pdf" target="_blank" rel="noreferrer" class="list-group-item list-group-item-action">2021 Résumé Software Emphasis</a>
-                            <a href="https://d3xdgu3rc17hb.cloudfront.net/cvs/Resume_2021_hard.pdf" target="_blank" rel="noreferrer" class="list-group-item list-group-item-action">2021 Résumé Hardware Emphasis</a>
-                            <a href="https://d3xdgu3rc17hb.cloudfront.net/cvs/Resume_2021_soft_zh.pdf" target="_blank" rel="noreferrer" class="list-group-item list-group-item-action">2021 中文简历（软件倾向）</a>
-                            <a href="https://d3xdgu3rc17hb.cloudfront.net/cvs/Resume_2021_hard_zh.pdf" target="_blank" rel="noreferrer" class="list-group-item list-group-item-action">2021 中文简历（硬件倾向）</a>
+                            <a href="https://d3xdgu3rc17hb.cloudfront.net/cvs/Resume_2021_soft.pdf" target="_blank" rel="noreferrer" class="list-group-item list-group-item-action">Résumé Software Emphasis</a>
+                            <a href="https://d3xdgu3rc17hb.cloudfront.net/cvs/Resume_2021_hard.pdf" target="_blank" rel="noreferrer" class="list-group-item list-group-item-action">Résumé Hardware Emphasis</a>
+                            <a href="https://d3xdgu3rc17hb.cloudfront.net/cvs/Resume_2021_soft_zh.pdf" target="_blank" rel="noreferrer" class="list-group-item list-group-item-action">中文简历（软件倾向）</a>
+                            <a href="https://d3xdgu3rc17hb.cloudfront.net/cvs/Resume_2021_hard_zh.pdf" target="_blank" rel="noreferrer" class="list-group-item list-group-item-action">中文简历（硬件倾向）</a>
                         </div>
-
+                        <br/>
+                        <div style={{ textAlign: "right" }}>
+                            <text>Last Update: 2022/03/02</text>
+                        </div>
                     </Col>
 
 
