@@ -23,8 +23,8 @@ class Resume extends Component {
                     </Title>
                     <Col xs={8}>
                         <div class="list-group">
-                            <a href="https://d3xdgu3rc17hb.cloudfront.net/cvs/Resume_2021_soft.pdf" target="_blank" rel="noreferrer" class="list-group-item list-group-item-action">Résumé Software Emphasis</a>
-                            <a href="https://d3xdgu3rc17hb.cloudfront.net/cvs/Resume_2021_hard.pdf" target="_blank" rel="noreferrer" class="list-group-item list-group-item-action">Résumé Hardware Emphasis</a>
+                            <a href="https://d3xdgu3rc17hb.cloudfront.net/cvs/Resume_Soft_2022_Spring.pdf" target="_blank" rel="noreferrer" class="list-group-item list-group-item-action">Résumé Software Emphasis</a>
+                            <a href="https://d3xdgu3rc17hb.cloudfront.net/cvs/Resume_Soft_2022_Spring.pdf" target="_blank" rel="noreferrer" class="list-group-item list-group-item-action">Résumé Hardware Emphasis</a>
                             <a href="https://d3xdgu3rc17hb.cloudfront.net/cvs/Resume_2021_soft_zh.pdf" target="_blank" rel="noreferrer" class="list-group-item list-group-item-action">中文简历（软件倾向）</a>
                             <a href="https://d3xdgu3rc17hb.cloudfront.net/cvs/Resume_2021_hard_zh.pdf" target="_blank" rel="noreferrer" class="list-group-item list-group-item-action">中文简历（硬件倾向）</a>
                         </div>
