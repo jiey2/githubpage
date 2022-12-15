@@ -13,10 +13,7 @@ const Pause = () => {
 
   return (
     <>
-      The current time is <b>{time}</b>
-      <br />
-      {/* <br /> */}
-      The site has been paused.
+      The current time is <b>{time}</b>.
     </>
   );
 };
